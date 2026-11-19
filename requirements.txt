@@ -1,0 +1,4 @@
+celery==5.7.0
+redis
+python-dotenv
+pytest

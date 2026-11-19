@@ -1,0 +1,19 @@
+﻿
+pip cache purge  # 清除缓存
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
+
+# 升级
+python -m pip install --upgrade Celery
+
+
+# 开发环境
+python -m pip install Celery redis python-dotenv pytest
+
+
+
+PYTHONUTF8=1
+
