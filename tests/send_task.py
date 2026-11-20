@@ -1,4 +1,6 @@
-"""模拟其他后端按任务名提交耗时任务。"""
+"""提交耗时任务
+按任务名
+"""
 import argparse
 import os
 import time
