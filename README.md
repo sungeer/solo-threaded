@@ -1,4 +1,4 @@
-# solo-threaded
+# hermitess
 
 Celery worker：单进程多线程（threads pool）消费耗时任务，broker 与 result backend 都用 Redis。
 任务只通过任务名字符串提交（`send_task('demo.sleep', ...)`），没有定时任务。
